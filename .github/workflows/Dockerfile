@@ -2,6 +2,6 @@ FROM python:buster
 
 WORKDIR /app
 
-COPY ./Project/test.py .
+COPY ./Project/ .
 
 CMD ["python", "./test.py"]
